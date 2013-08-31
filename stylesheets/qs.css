@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.logo_text {
+  float:left;
+  padding: 0 10px 10px 0;
+}
+.logo_image {
+  float:left;
+}
+
+.qs #masthead .brand{
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.qs #masthead .brand .heart {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.qs #masthead .brand {
+    padding: 23px 20px 17px;
+}
+
+.qs #masthead .brand:hover .heart {
+  transform: translate(3px,0px);
+  -ms-transform: translate(3px,0px); /* IE 9 */
+  -webkit-transform: translate(3px,0px); /* Safari and Chrome */
+  -o-transform: translate(3px,0px); /* Opera */
+  -moz-transform: translate(3px,0px); /* Firefox */
+}
+
+.qs #masthead .brand .brain {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.qs #masthead .brand:hover .brain {
+  transform: translate(-2px,0px);
+  -ms-transform: translate(-2px,0px); /* IE 9 */
+  -webkit-transform: translate(-2px,0px); /* Safari and Chrome */
+  -o-transform: translate(-2px,0px); /* Opera */
+  -moz-transform: translate(-2px,0px); /* Firefox */
+}
+
+.qs .section .navigation .nav > li.active > a {
+  color: #41B7D8;
+/*  position: fixed;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.9);
+*/}
+
